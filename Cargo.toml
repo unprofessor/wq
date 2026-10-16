@@ -1,0 +1,19 @@
+[package]
+name = "wq"
+version = "0.1.0"
+edition = "2024"
+description = "Query web search engines from the command line"
+
+[dependencies]
+anyhow = "1.0.104"
+base64 = "0.23.1"
+clap = { version = "4.6.7", features = ["derive"] }
+etcetera = "0.11.0"
+reqwest = { version = "0.13.5", features = ["blocking", "json", "gzip", "brotli", "query"] }
+scraper = "0.27.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+toml = "1.1.8"
+
+[profile.release]
+strip = true

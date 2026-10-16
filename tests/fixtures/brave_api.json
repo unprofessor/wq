@@ -1,0 +1,60 @@
+{
+  "type": "search",
+  "query": {
+    "original": "albert einstein",
+    "more_results_available": true
+  },
+  "infobox": {
+    "type": "graph",
+    "results": [
+      {
+        "type": "infobox",
+        "subtype": "entity",
+        "position": 1,
+        "title": "Albert Einstein",
+        "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "description": "German-born theoretical physicist (1879–1955)",
+        "long_desc": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity.",
+        "website_url": "https://alberteinstein.com",
+        "attributes": [
+          ["Born", "14 March 1879"],
+          ["Died", "18 April 1955"],
+          ["Spouse", null]
+        ],
+        "is_source_local": false,
+        "is_source_both": false,
+        "family_friendly": true
+      }
+    ]
+  },
+  "web": {
+    "type": "search",
+    "family_friendly": true,
+    "results": [
+      {
+        "type": "search_result",
+        "subtype": "generic",
+        "title": "Albert Einstein - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "description": "<strong>Albert Einstein</strong> was a German-born theoretical physicist best known for developing the theory of relativity.",
+        "is_source_local": false,
+        "is_source_both": false,
+        "family_friendly": true,
+        "language": "en",
+        "is_live": false
+      },
+      {
+        "type": "search_result",
+        "subtype": "generic",
+        "title": "Einstein&#x27;s Theory of Relativity",
+        "url": "https://www.space.com/17661-theory-general-relativity.html",
+        "description": "General relativity is a theory of gravitation developed by <strong>Albert Einstein</strong>.",
+        "is_source_local": false,
+        "is_source_both": false,
+        "family_friendly": true,
+        "language": "en",
+        "is_live": false
+      }
+    ]
+  }
+}
